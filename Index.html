@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        body{
+            background-image: url(image/BG.jpg);
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body style="background-color: #f0f0f0; font-family: Arial, sans-serif; color: #333;">
+    <center>
+        <h1 style="color: #444; font-size: 28px;">TABLE MERGE CELLS</h1>
+        <table width="50%" border="0" cellspacing="0" cellpadding="10" style="border-collapse: collapse; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); background-color: #fff;">
+            <tr style="background-color: #6C7AE0; color: #fff;">
+                <td align="center" rowspan="3" style="border: 2px solid #444; font-weight: bold;">Day</td>
+                <td align="center" colspan="3" style="border: 2px solid #444; font-weight: bold;">Seminar</td>
+            </tr>
+            <tr style="background-color: #8C9EFF; color: #fff;">
+                <td align="center" colspan="2" style="border: 2px solid #444; font-weight: bold;">Schedule</td>
+                <td align="center" rowspan="2" style="border: 2px solid #444; font-weight: bold;">Topic</td>
+            </tr>
+            <tr style="background-color: #B0C4FF; color: #333;">
+                <td align="center" style="border: 2px solid #444;">Begin</td>
+                <td align="center" style="border: 2px solid #444;">End</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="border: 2px solid #444; background-color: #D6E4FF;">Monday</td>
+                <td align="center" rowspan="2" bgcolor="Khaki" style="border: 2px solid #444;">8:00 a.m.</td>
+                <td align="center" rowspan="2" bgcolor="MediumPurple" style="border: 2px solid #444; color: #fff;">5:00 p.m.</td>
+                <td align="center" style="border: 2px solid #444;">Introduction to XML</td>
+            </tr>
+            <tr>
+                <td align="center" style="border: 2px solid #444;">Validity DTD and Relax NG</td>
+            </tr>
+            <tr>
+                <td rowspan="3" style="border: 2px solid #444; background-color: #D6E4FF;">Tuesday</td>
+                <td align="center" bgcolor="Khaki" style="border: 2px solid #444;">8:00 a.m.</td>
+                <td align="center" bgcolor="Khaki" style="border: 2px solid #444;">11:00 a.m.</td>
+                <td align="center" rowspan="2" style="border: 2px solid #444;">XPath</td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="Khaki" style="border: 2px solid #444;">11:00 a.m.</td>
+                <td align="center" bgcolor="LightGreen" style="border: 2px solid #444;">2:00 p.m.</td>
+            </tr>
+            <tr>
+                <td align="center" bgcolor="LightGreen" style="border: 2px solid #444;">2:00 p.m.</td>
+                <td align="center" bgcolor="MediumPurple" style="border: 2px solid #444; color: #fff;">5:00 p.m.</td>
+                <td align="center" style="border: 2px solid #444;">XSL Transformation</td>
+            </tr>
+            <tr>
+                <td style="border: 2px solid #444; background-color: #D6E4FF;">Wednesday</td>
+                <td align="center" bgcolor="Khaki" style="border: 2px solid #444;">8:00 a.m.</td>
+                <td align="center" bgcolor="LightGreen" style="border: 2px solid #444;">12:00 p.m.</td>
+                <td align="center" style="border: 2px solid #444;">XSL Formatting Objects</td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
